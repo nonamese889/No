@@ -94,6 +94,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
     Callback = function()
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
   end
+  })   AddButton(Tab1o, {
+     Name = "rubu v3 vietsub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RuBuBFVn"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "vanthanh",
+    Callback = function()
+	  loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/oniichanpakavanthanhios"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "fly",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/Fly.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "cuttay",
+    Callback = function()
+	  loadstring(game:HttpGet('https://github.com/diemquy/CutTayHub/blob/main/Cuttayhubreal.lua'))()
+  end
   })
   
 ----- Dropdown 
