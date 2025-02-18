@@ -129,10 +129,40 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
   end
-  })   AddButton(Tab2o, {
+  })   AddButton(Tab1o, {
      Name = "zis v10",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb10"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "bắp red (vietsub)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "cokka hub",
+    Callback = function()
+	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end
+  })   AddButton(Tab1o, {
+     Name = "xero hub",
+    Callback = function()
+     loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "volcano",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "garvity",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Underssky/GravityLayScript/refs/heads/main/MainGravityLay.txt"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "fling",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
   end
   })
   
