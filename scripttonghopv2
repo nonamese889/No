@@ -114,6 +114,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
     Callback = function()
 	  loadstring(game:HttpGet('https://github.com/diemquy/CutTayHub/blob/main/Cuttayhubreal.lua'))()
   end
+  })   AddButton(Tab1o, {
+     Name = "donki",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DonkiRoblox111/DonkiV1/refs/heads/main/fulltiengviet.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "w azure",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "quantumOnyx",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "zis v10",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb10"))()
+  end
   })
   
 ----- Dropdown 
