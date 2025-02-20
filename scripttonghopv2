@@ -175,19 +175,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
   loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
   end
   })   AddButton(Tab1o, {
-     Name = "doraemon (khuyên không nên dùng)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))())
-  end
-  })   AddButton(Tab1o, {
      Name = "royx kaitun",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "strix (key)",
-    Callback = function()
-	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
   end
   })
   
