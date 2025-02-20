@@ -122,6 +122,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   })   AddButton(Tab1o, {
      Name = "w azure",
     Callback = function()
+getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
   })   AddButton(Tab1o, {
@@ -147,7 +150,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   })   AddButton(Tab1o, {
      Name = "xero hub",
     Callback = function()
-     loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
+     getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
   end
   })   AddButton(Tab1o, {
      Name = "volcano",
@@ -163,6 +168,34 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
      Name = "fling",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "anhdepzai",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "hoho (KEY)",
+    Callback = function()
+	  _G.HohoVersion = "v4"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "doraemon (khuyên không nên dùng)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))())
+  end
+  })   AddButton(Tab1o, {
+     Name = "royx kaitun",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "strix (key)",
+    Callback = function()
+	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
   end
   })
   
