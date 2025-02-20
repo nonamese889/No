@@ -120,14 +120,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DonkiRoblox111/DonkiV1/refs/heads/main/fulltiengviet.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "w azure",
-    Callback = function()
-getgenv().Team = "Pirates"
-getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
-getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-  end
-  })   AddButton(Tab1o, {
      Name = "quantumOnyx",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
@@ -151,8 +143,8 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
      Name = "xero hub",
     Callback = function()
      getgenv().Team = "Marines"
-getgenv().Hide_Menu = false
-loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
+   getgenv().Hide_Menu = false
+   loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
   end
   })   AddButton(Tab1o, {
      Name = "volcano",
@@ -180,7 +172,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
     Callback = function()
 	  _G.HohoVersion = "v4"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
   end
   })   AddButton(Tab1o, {
      Name = "doraemon (khuyên không nên dùng)",
