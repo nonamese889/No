@@ -178,6 +178,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
     Callback = function()
 	  loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
   end
+  })   AddButton(Tab1o, {
+     Name = "đạt THG v1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "hiru hub (new)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end
   })
   
 ----- Dropdown 
