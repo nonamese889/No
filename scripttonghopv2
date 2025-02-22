@@ -32,13 +32,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "BLOXFRUIT"})
      local Tab2o = MakeTab({Name = "ALL MAP"})
-     local Tab3o = MakeTab({Name = "soon"})
+     local Tab3o = MakeTab({Name = "FISH"})
+     local Tab4o = MakeTab({Name = "soon"})
      
      
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "a",
+      Name = "BẢO TỔNG HỢP ROBLOX",
       Default = false,
       Callback = function()
      end
@@ -184,9 +185,43 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV1"))()
   end
   })   AddButton(Tab1o, {
-     Name = "hiru hub (new)",
+     Name = "hiru hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "w azure",
+    Callback = function()
+	  getgenv().Team = "Pirates"
+   getgenv().FixCrash = false -- Turn it On For    Hopping Server, Improve Performance But Silent Aim On Mob And Player
+  getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+   loadstring(game:HttpGet("https://api.luarmor. net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "native (key)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "alchemy hub (key)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "forge hub",
+    Callback = function()
+	  -- FORGE
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
   end
   })
   
