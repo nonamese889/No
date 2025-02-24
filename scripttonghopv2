@@ -33,7 +33,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "BLOXFRUIT"})
      local Tab2o = MakeTab({Name = "ALL MAP"})
      local Tab3o = MakeTab({Name = "FISH"})
-     local Tab4o = MakeTab({Name = "soon"})
+     local Tab4o = MakeTab({Name = "TSB"})
+     local Tab5o = MakeTab({Name = "soon"})
      
      
 -------TOGGLE 
@@ -218,10 +219,89 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
 	  loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
   end
   })   AddButton(Tab3o, {
-     Name = "forge hub",
+     Name = "forge hub (key)",
     Callback = function()
 	  -- FORGE
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "choi jong moveset (saitama)",
+    Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nil071n/fireman/refs/heads/main/TSB"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "naruto moveset (saitama)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "jk moveset (kj)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NetlessMade/KJ-TO-JK/refs/heads/main/script.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "speed hub(menu)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "trash can man(all)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man", true))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "deku moveset (suiryu)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/deku%20suiryu%20thingy.txt"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "luffy moveset (saitama)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/Protected_7732857839120517.txt"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "shinji moveset(saitama)",
+    Callback = function()
+	getgenv().speedtools = false --- set true if   you want use this tool if you want to run
+   getgenv().speedpunch= true --- tp and        normal Punch
+  getgenv().dance= true --- set true if you want to this dance song made by rebzyyx all I want is you 
+   getgenv().night= true -- set true if you want to day to night 
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Shinji%20tp%20exploit'))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "chainsaw man moveset(sonic)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/0fd8d36993c850f3fac89e5adf793076/raw/ab4f5a42bd0b2e24a32a46301d533ea849ca771c/gistfile1.txt"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "kyra kj moveset(saitama)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/5fe3178dff916f988d319c3bd5e4fc01/raw/b250ee6f967c4e84195a76ab7915fb1d79b53326/gistfile1.txt"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "VEXOR moveset(saitama)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VEXOR.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "freddy moveset(garou)",
+    Callback = function()
+	  loadstring(game:HttpGet('https://pastebin.com/raw/Ft5psDmD'))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "mahito moveset(suiryu)",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/GreatestLime4K/mahitotsb/refs/heads/main/Protected_6381580361331378.txt'))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "jjs gojo moveset(saitama)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/jjsgojov3/main/SaitamaToGojoV3_SOURCE-obfuscated_2.txt",true))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "titan moveset (all)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://paste.ee/r/fxY03"))()
   end
   })
   
