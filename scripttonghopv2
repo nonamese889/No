@@ -303,6 +303,48 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
     Callback = function()
 	  loadstring(game:HttpGet("https://paste.ee/r/fxY03"))()
   end
+  })   AddButton(Tab1o, {
+     Name = "omg hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "alchemy hub (key)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "thundarZ (key)",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "turbo auto find fruit",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/TraiCay.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "skull auto chest (có key ko thì ko bt)",
+    Callback = function()
+	  _G.Settings = {
+    ["Enable Farm"] = true,
+    ["SnipeLegendaryItem"] = true,
+    ["Choose Team"] = "Marines",
+    ["White Screen"] = false,
+    ["Reset Anti Detect"] = true
+   }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xxhumggxx/SkullHub/refs/heads/main/ChestV2.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "blacktrap(key)",
+    Callback = function()
+	  loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "ganteng hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+  end
   })
   
 ----- Dropdown 
