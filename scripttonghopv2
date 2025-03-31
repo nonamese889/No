@@ -34,13 +34,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "ALL MAP"})
      local Tab3o = MakeTab({Name = "FISH"})
      local Tab4o = MakeTab({Name = "TSB"})
-     local Tab5o = MakeTab({Name = "soon"})
+     local Tab5o = MakeTab({Name = "dead rails"})
+     local Tab6o = MakeTab({Name = "soon"})
+     local Tab7o = MakeTab({Name = "soon"})
      
      
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "BẢO TỔNG HỢP ROBLOX",
+      Name = "update gần nhất 31/3/2025",
       Default = false,
       Callback = function()
      end
@@ -344,6 +346,79 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
      Name = "ganteng hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Gabriel (garou)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/youinsinificants/main/insignificantFuck.txt",true))()
+  end
+  })   AddButton(Tab5o, {
+     Name = "aim+hitbox",
+    Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/o4SV2jjx/raw"))()
+  end
+  })   AddButton(Tab5o, {
+     Name = "dead rails",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Script-29885"))()
+  end
+  })   AddButton(Tab5o, {
+     Name = "aimbot",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "min gaming hop sword",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "banana hub (fake)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.      githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "bluex find fruit(key ko thì ko bt)",
+    Callback = function()
+       getgenv().Config = {
+    ["Misc"] = {
+        ["RandomFruits"] = true,
+        ["BlackScreen"] = false,
+    }
+   }
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/FindFruits.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "xenter v1",
+    Callback = function()
+       getgenv().Version = "V1"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "xenter v2",
+    Callback = function()
+       getgenv().Version = "V2"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "tsuo hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "teddy hop sv (tự vô test tại nó có gần như là hop tất cả)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-FREMIUM"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "tboy hub (main)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/Mainfram.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "maru hub (fake)",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/MaruHub.lua"))()
   end
   })
   
